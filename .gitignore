@@ -1,0 +1,7 @@
+# Generated output
+maze.txt
+
+# Python
+__pycache__/
+*.pyc
+.mypy_cache/
