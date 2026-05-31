@@ -1,0 +1,33 @@
+# A-Maze-ing configuration file
+# All KEY=VALUE pairs, one per line. Lines starting with # are comments.
+
+# Maze dimensions (number of cells)
+WIDTH=20
+HEIGHT=15
+
+# Entry and exit coordinates (x,y), must be within maze bounds
+ENTRY=0,0
+EXIT=19,14
+
+# Output filename for the hex-encoded maze
+OUTPUT_FILE=maze.txt
+
+# Generation algorithm: wilson (default) or dfs
+ALGORITHM=wilson
+
+# Random seed for reproducibility (any integer, or remove for random)
+SEED=42
+
+# Perfect maze: exactly one path between entry and exit
+PERFECT=True
+
+# Embed the "42" pattern (requires maze to be large enough)
+DRAW_42=true
+
+# Optional: custom image path to display in the GUI
+CUSTOM_IMAGE=hellokitty.png
+
+# Optional: colour overrides (hex)
+# COLOR_42=#ffb3d1
+# PATH_COLOR=#ff8fab
+# CANVAS_BG=#fff0f5

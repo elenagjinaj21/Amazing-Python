@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "mazegen"
+version = "1.0.0"
+description = "Reusable maze generation library with BFS solver"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+keywords = ["maze", "generator", "algorithm", "wilson", "dfs"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/42"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["mazegen*"]
